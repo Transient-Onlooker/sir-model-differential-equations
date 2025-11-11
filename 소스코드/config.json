@@ -1,0 +1,7 @@
+{
+    "POPULATION_SIZE": 10000,
+    "INITIAL_INFECTED": 10,
+    "BETA": 0.4,
+    "GAMMA": 0.1,
+    "SIMULATION_DAYS": 160
+}

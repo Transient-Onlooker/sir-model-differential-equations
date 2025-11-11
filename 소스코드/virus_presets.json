@@ -1,0 +1,44 @@
+{
+    "사용자 정의": {
+        "description": "사용자가 직접 값을 설정합니다.",
+        "beta": 0.2,
+        "gamma": 0.1,
+        "mu": 0.01,
+        "incubation_period": 5
+    },
+    "COVID-19 (오미크론)": {
+        "description": "R0: ~7, 잠복기: ~3일, 감염기간: ~7일, 치명률: ~0.3%",
+        "beta": 0.7,
+        "gamma": 0.14,
+        "mu": 0.0004,
+        "incubation_period": 3
+    },
+    "COVID-19 (델타)": {
+        "description": "R0: ~5, 잠복기: ~4일, 감염기간: ~7일, 치명률: ~1%",
+        "beta": 0.5,
+        "gamma": 0.14,
+        "mu": 0.0014,
+        "incubation_period": 4
+    },
+    "계절성 독감": {
+        "description": "R0: ~1.3, 잠복기: ~2일, 감염기간: ~5일, 치명률: ~0.1%",
+        "beta": 0.26,
+        "gamma": 0.2,
+        "mu": 0.0002,
+        "incubation_period": 2
+    },
+    "메르스 (MERS)": {
+        "description": "R0: ~0.7, 잠복기: ~5일, 감염기간: ~14일, 치명률: ~35%",
+        "beta": 0.05,
+        "gamma": 0.07,
+        "mu": 0.025,
+        "incubation_period": 5
+    },
+    "홍역 (Measles)": {
+        "description": "R0: ~15, 잠복기: ~10일, 감염기간: ~8일, 치명률: ~0.2%",
+        "beta": 1.9,
+        "gamma": 0.125,
+        "mu": 0.00025,
+        "incubation_period": 10
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "window_title": "SEIRS 모델 시뮬레이터 (v9.0)",
+    "simulation_result_title": "시뮬레이션 결과",
+    "parameters_title": "기본 설정",
+    "population_label": "총인구 (N):",
+    "initial_infected_label": "초기 감염자 (I0):",
+    "rec_infected_label": "추천 초기 감염자:",
+    "sim_duration_label": "시뮬레이션 기간 (일):",
+    "vax_start_day_label": "백신 접종 시작일:",
+
+    "use_variants_label": "변이 시나리오 사용",
+    "use_interventions_label": "개입 시나리오 사용",
+
+    "adv_settings_button": "상세 설정 (단일 시나리오)",
+    "variants_button": "변이 시나리오 설정",
+    "interventions_button": "개입 시나리오 설정",
+    "run_button": "시뮬레이션 실행",
+    
+    "adv_settings_title": "상세 설정",
+    "virus_settings_title": "바이러스 설정",
+    "nat_immunity_settings_title": "자연 면역 설정",
+    "vax_settings_title": "백신 설정",
+
+    "variants_title": "변이 시나리오 편집기",
+    "interventions_title": "개입 시나리오 편집기",
+
+    "save_button": "저장",
+    "close_button": "닫기",
+    "save_and_close_button": "저장하고 닫기",
+    "save_success_title": "저장 완료",
+    "save_variants_success_text": "변이 시나리오를 성공적으로 저장했습니다.",
+    "save_interventions_success_text": "개입 시나리오를 성공적으로 저장했습니다.",
+
+    "error_input": "입력 오류",
+    "error_invalid_json": "JSON 형식이 올바르지 않습니다. 문법을 확인해주세요.",
+    "error_valid_number": "시뮬레이션 중 오류가 발생했습니다.",
+    "error_population_small": "초기 감염/잠복자 수가 총인구보다 많을 수 없습니다.",
+
+    "infection_rate_label": "감염률 (beta) (%):",
+    "recovery_rate_label": "회복률 (gamma) (%):",
+    "mortality_rate_label": "치명률 (mu) (%):",
+    "incubation_period_label": "잠복기 (일):",
+    "nat_immunity_eff_label": "자연 면역 효과 (%):",
+    "nat_immunity_dur_label": "자연 면역 기간 (일):",
+    "vax_rate_label": "일일 접종률 (xi) (%):",
+    "vax_efficacy_label": "백신 면역 효과 (%):",
+    "vax_immunity_dur_label": "백신 면역 기간 (일):",
+    "rec_vax_multiplier_label": "회복자 접종 보너스 (배율):",
+
+    "variants_list_title": "변이 목록",
+    "variant_editor_pane_title": "변이 편집",
+    "add_variant_button": "변이 추가",
+    "remove_variant_button": "선택 항목 삭제",
+    "variant_day_label": "시작일 (Day)",
+    "variant_name_label": "변이 이름",
+    
+    "interventions_list_title": "개입 목록",
+    "intervention_editor_pane_title": "개입 편집",
+    "add_intervention_button": "개입 추가",
+    "remove_intervention_button": "개입 삭제",
+    "intervention_day_label": "시작일 (Day)",
+    "intervention_multiplier_label": "감염률 배수",
+    "intervention_reason_label": "개입 사유",
+
+    "susceptible_legend": "감염 가능자 (S)",
+    "exposed_legend": "잠복 감염자 (E)",
+    "infected_legend": "감염자 (I)",
+    "recovered_legend": "회복자 (R)",
+    "vaccinated_legend": "백신 접종자 (V)",
+    "deceased_legend": "사망자 (D)"
+}
